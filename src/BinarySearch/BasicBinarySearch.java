@@ -3,7 +3,7 @@ package BinarySearch;
 public class BasicBinarySearch {
     public static void main(String[] args) {
         int[] arr = new int[] { 2, 7, 9, 11, 15 };
-        int target = 9;
+        int target = 15;
         int res = basicBinarySearch(arr, target);
         System.out.println(res);
     }
