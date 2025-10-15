@@ -1,7 +1,23 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src"
+    ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    // 🧠 关闭自动补全提示
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    // ⛔ 禁止自动显示建议
+    "editor.suggestOnTriggerCharacters": false,
+    // 📴 关闭灰色“智能预测”提示
+    "editor.inlineSuggest.enabled": false,
+    // 🔇 如果你启用了 Copilot，也把它关掉
+    "github.copilot.enable": {
+        "*": false
+    }
 }
